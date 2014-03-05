@@ -1,5 +1,6 @@
 body {
-  background: url(media/zebre.jpg) fixed;
+  background: url(media/zebre.png) no-repeat bottom left fixed;
+  background-size: cover;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
