@@ -4,9 +4,26 @@ body {
   text-align: center;
 }
 
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #333;
+  transition: color .2s linear;
+}
+a:hover { color: #fa8a6b; }
+
 .logo { width: 50%; }
 
 .jumbotron { background-color: transparent; }
-.jumbotron p { font-weight: normal; }
+.jumbotron h1 { margin-bottom: 25px; }
+.jumbotron p {
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 7px;
+}
+.jumbotron .phone, .jumbotron .email {
+  font-size: 1.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 .jumbotron .phone { text-align: right; }
 .jumbotron .email { text-align: left; }
