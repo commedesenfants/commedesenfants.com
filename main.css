@@ -12,7 +12,7 @@ a, a:link, a:visited {
 }
 a:hover { color: #fa8a6b; }
 
-.logo { width: 100%; }
+.logo, .zebre { width: 100%; }
 .zebre { position: relative; left: 70px; }
 
 .jumbotron { background-color: transparent; }
