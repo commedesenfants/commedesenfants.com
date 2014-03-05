@@ -1,6 +1,6 @@
 body {
-  background: url(media/zebre.png) no-repeat bottom left fixed;
-  background-size: cover;
+  background: url(media/zebre.png) no-repeat 8% 75% fixed;
+  background-size: 33%;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
@@ -13,6 +13,8 @@ a, a:link, a:visited {
 a:hover { color: #fa8a6b; }
 
 .logo { width: 50%; }
+
+.container {    }
 
 .jumbotron { background-color: transparent; }
 .jumbotron h1 { margin-bottom: 25px; }
@@ -28,13 +30,6 @@ a:hover { color: #fa8a6b; }
 }
 .jumbotron .phone { text-align: right; }
 .jumbotron .email { text-align: left; }
-
-html, body { height: 100%; }
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
 
 @media (max-width: 480px) {
   body {
