@@ -4,8 +4,7 @@ body {
   text-align: center;
 }
 
-.logo { width: 100%; }
-
+.logo { width: 50%; }
 .jumbotron p {
-	font-weight: normal;
+  font-weight: normal;
 }
