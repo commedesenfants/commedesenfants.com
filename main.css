@@ -1,0 +1,7 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.logo { width: 100%; }
+.jumbotron { background-color: white; }
